@@ -1,3 +1,5 @@
-# hello_world
-Hello world repository
-My name is Lluis
+# dilemma_game.py
+This is an idea I had for a game based on the prisoner's dilemma. In the Dilemma game there are two players. Each has two options, namely cooperate or defect. Each must make the choice without knowing what the other player will do. No matter what the other player does, defections yirlds a higher payoff than cooperation. The dilemma is that if both defect, both do worse than if both had cooperated. If both players cooperate, both get R = 3 points, the reward for mutual cooperation. If one player cooperates but the other defects, the defecting player gets T = 5 points, the temptation to defect, while the cooperating player gets S = 0 points, the sucker's payoff. If both defect, both get P = 1 point, the punishment for mutual defection.
+
+The game is repeated several rounds. In every round both players make an option and receive the points accordind to both choices. If a player makes 3 cooperations in a row, gets a reward of 3 points, and if makes 3 defections in a row gets a penalty of 5 points. Every 3 rewards or every 3 penalties the number of points added or removed is increased in 1. The game finishes when one player gets 10 or more points more than the other player, with a minimum of 50 points.
+
